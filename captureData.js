@@ -7,6 +7,9 @@ var trafficDataOverTime = [];
 //Used for getting time
 var currentTime = new Date();
 
+//Get correct time format
+curentTime.customFormat( "#hh#:#mm#:#ss#");
+
 //Continuous running code
 var interval = setInterval(function() {
 
